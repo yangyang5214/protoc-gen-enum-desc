@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+enum TaskStatus{
+  CREATED = 0; //已创建
+  RUNNING = 1; //运行中
+  STOPPED = 2; //已停止
+  FAILED = 3; //失败
+  SUCCESS = 4; //成功
+}
+
+enum TaskStatusNoComment{
+  TSN_CREATED = 0;
+  TSN_RUNNING = 1;
+  TSN_STOPPED = 2;
+  TSN_FAILED = 3;
+  TSN_SUCCESS = 4;
+}
+
+
+option go_package = "yangyang5214/task";
