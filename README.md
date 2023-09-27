@@ -31,7 +31,7 @@ cd examples
 protoc --proto_path=.  --go_out=paths=source_relative:. --enum-desc_out=paths=source_relative:.  task_status.proto
 ```
 
-- 生成 TaskStatus_desc
+- gen TaskStatus_desc
 
 ```shell
 package task
