@@ -55,6 +55,6 @@ func (x TaskStatus) Desc() string {
 
 ```shell
 func TestName(t *testing.T) {
-	t.Log(TaskStatus_RUNNING.Desc())
+	t.Log(TaskStatus_RUNNING.Desc()) // 运行中
 }
 ```
